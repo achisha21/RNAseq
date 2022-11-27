@@ -33,4 +33,4 @@ The use of --latency-wait allows for SLURM to catch up writing the files and pos
 
 `snakemake --latency-wait 120 -p -j 100 --profile slurm`
 
-
+6. Pipeline should result in a featurecount file
