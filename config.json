@@ -1,0 +1,46 @@
+{
+    "raw_fastq_gz_dir": "/projects/academic/gbcstaff/Intern_Projects/achisha/RNAseq/2165_Sinha",
+    "meta_file": "metadata.txt",
+    "tool_version":
+    {
+        "fastx": "0.0.13",
+        "cutadapt": "1.16",
+        "samtools": "1.7",
+        "hisat2": "2.2.1",
+        "subread": "2.2.0"
+    },
+    "file_names":
+    {
+        "mkdir_done": "mkdir.done",
+        "peaks_done": "peaks.done"
+    },
+    "dir_names":
+    {
+        "trimmed_dir": "outputs/trimmed",
+        "fastqc_dir": "outputs/fastqc",
+        "mapped_dir": "outputs/mapping",
+        "readCounts_dir": "outputs/readCounts"
+    },
+    "params":
+    {
+        "hisat2":
+            {
+            "threads": "4",
+            "all": "-a",
+            "hisat2_reference":"/projects/academic/gbcstaff/igenome-041714/Homo_sapiens/UCSC/hg38/Sequence/Hisat2Index/genome"
+            },
+        "deeptools":
+            {
+            "cores": "4",
+            "size": "2652783500"
+            },
+        "picard":
+            {
+            "picard_path": "/projects/academic/gbcstaff/utils/picard/picard-2.10.0/"
+            },
+        "macs2":
+            {
+            "genome": "hs"
+            }
+    }
+}
