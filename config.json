@@ -19,6 +19,7 @@
         "trimmed_dir": "outputs/trimmed",
         "fastqc_dir": "outputs/fastqc",
         "mapped_dir": "outputs/mapping",
+        "sorted_dir": "outputs/sorted",
         "readCounts_dir": "outputs/readCounts"
     },
     "params":
